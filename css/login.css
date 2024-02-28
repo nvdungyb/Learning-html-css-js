@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background: #f2f2f2;
+}
+
+.login-page {
+  display: flex;
+  /*  Căn giữa theo chiều ngang. */
+  justify-content: center;
+  /* Căn giữa theo chiều dọc */
+  align-items: center;
+  /* Chiều cao tối đa bằng chiều cao của màn hình */
+  height: 100vh;
+  /*  */
+  flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+  color: #0c88bd;
+}
+
+.heading {
+  /* text-align: center; */
+  margin: 0% 0 2vh 0;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.or {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2vh 0;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  flex-direction: column;
+  width: 376px;
+}
+
+.email {
+  padding: 0 0 8% 0;
+  margin-bottom: 5%;
+}
+
+.email-label {
+  padding: 0 0 1% 0;
+}
+
+.password {
+  padding: 0 0 8% 0;
+  margin-bottom: 1%;
+}
+
+.password-label {
+  padding: 0 0 1% 0;
+}
+
+input {
+  width: 100%;
+  height: 95%;
+  border: 1px solid #979797;
+  border-radius: 8px;
+}
+
+input:focus {
+  outline: none;
+  border: 2px solid #0c88bd;
+}
+
+.remember {
+  display: flex;
+  align-items: left;
+}
+
+.forgot {
+  display: flex;
+  justify-content: space-between;
+  padding: 2% 0% 8% 0;
+}
+
+button {
+  width: 100%;
+  height: 50px;
+  color: white;
+  background-color: #0c88bd;
+  border: 1px solid #0c88bd;
+  border-radius: 8px;
+}
+
+button:focus {
+  background-color: #0c88bd;
+  border: 10px solid #0c88bd;
+  cursor: pointer;
+}
+
+button:active {
+  transform: scale(1.05);
+}
